@@ -13,6 +13,7 @@ namespace TurboMixTest
             ITurboMix turboMix = new TurboMix();
             Plato plato = turboMix.Cocina(new Alimento(), new Alimento());
             Assert.IsNotNull(plato);
+             
         }
 
     }
